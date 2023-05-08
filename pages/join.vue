@@ -18,8 +18,7 @@
                 <div class="mt-4">
                     <div class="mt-4 flex items-center space-x-4">
                         <span class="text-2xl text-[#FF0054]">
-                            The team is currently not recruiting but can notify interested individuals when they start
-                            recruiting again if they provide their email address.
+                            The team is currently not recruiting you can provide your details here and we will notify you about recruitment when they start. 
                         </span>
                     </div>
                 </div>
