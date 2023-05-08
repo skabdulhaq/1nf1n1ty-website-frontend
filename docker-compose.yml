@@ -1,0 +1,17 @@
+services:
+  1nf1n1ty-web-frontend:
+    image: t1tan/1nf1n1ty-web-frontend:latest
+    restart: always
+    command: "npm run start"
+    volumes:
+      - ./content:/app/content/
+  nginx:
+    build: 
+      context: ./
+      dockerfile: Dockerfile.nginx
+    container_name: nginx-rev-proxy
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    

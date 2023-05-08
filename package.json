@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27968280.9739e4d",
+    "nuxt": "^3.2.2"
+  },
+  "dependencies": {
+    "@nuxt/image-edge": "^1.0.0-27968280.9739e4d",
+    "@nuxt/types": "^2.16.0",
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/tailwindcss": "^6.6.7",
+    "@xata.io/client": "^0.23.5",
+    "airtable": "^0.11.6",
+    "axios": "^1.4.0",
+    "daisyui": "^2.51.6"
+  }
+}

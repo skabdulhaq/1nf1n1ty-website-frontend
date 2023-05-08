@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Abdul-Haq-s-workspace-382mos.us-east-1.xata.sh/db/1nf1n1ty-notify",
+  "codegen": {
+    "output": "server/api/xata.js",
+    "moduleType": "cjs"
+  }
+}

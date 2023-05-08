@@ -1,0 +1,29 @@
+[
+    {
+        "link":"https://www.instagram.com/team_1nf1n1ty/?hl=en",
+        "img":"/images/instagram.webp",
+        "alt":"1nf1n1ty (infinity) instragram"
+    },
+    
+    {
+        "link":"https://twitter.com/team_1nf1n1ty",
+        "img":"/images/twitter.webp",
+        "alt":"1nf1n1ty (infinity) twitter handel"
+    },
+    {
+        "link":"https://medium.com/@teaminfinity",
+        "img":"/images/medium.webp",
+        "alt":"1nf1n1ty (infinity) medium blog"
+    },
+    {
+        "link":"https://www.linkedin.com/company/1nf1n1ty/",
+        "img":"/images/linkedin.webp",
+        "alt":"1nf1n1ty (infinity) linkedin page"
+    },
+    {
+        "link":"https://discord.gg/74h9nnGFGM",
+        "img":"/images/discord.webp",
+        "alt":"1nf1n1ty (infinity) discord server"
+    }
+
+]

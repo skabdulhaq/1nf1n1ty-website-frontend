@@ -1,0 +1,86 @@
+[
+    {
+        "role": "Web Exploitation",
+        "image_name": "abhi.webp",
+        "name": "Abhisek",
+        "nickname":"hexkn1ght"
+    },
+    {
+        "role": "Binary Exploitation & Reverse Engineering",
+        "image_name": "raghul.webp",
+        "name": "Raghul P S",
+        "nickname":"Antidote"
+    },
+    {
+        "role": "Cryptography",
+        "image_name": "sowmya.webp",
+        "name": "Sowmya",
+        "nickname":"NEWT"
+    },
+    {
+    "role": "Reverse Engineering",
+    "image_name": "tharik.webp",
+        "name": "Tharik Sherief",
+        "nickname":"Strikerrrocker"
+    },
+    {
+        "role": "Web Exploitation & Blockchain",
+        "image_name": "Abdul.webp",
+        "name": "Abdul Haq",
+        "nickname":"Mr.T!T@N"
+    },
+    {
+        "role": "Forensics",
+        "image_name": "vishnu.webp",
+        "name": "Vishnu vardan",
+        "nickname":"Hecker"
+    },
+    {
+        "role": "Web Exploitation & Cryptography",
+        "image_name": "arun.webp",
+        "name": "Arun Balaji B",
+        "nickname":"4ruN"
+    },
+    {
+        "role": "Reverse Engineering & Cryptography",
+        "image_name": "p3rplex3d.webp",
+        "name": "Shwetha S",
+        "nickname":"p3rplex3d"
+    },
+    {
+        "role": "Reverse Engineering",
+        "image_name": "arka.webp",
+        "name": "Arka",
+        "nickname":"ghost"
+    },
+    {
+        "role": "Cryptography",
+        "image_name": "sahaana.webp",
+        "name": "Sahaana A",
+        "nickname":"g00be"
+    },
+    {
+        "role": "Cryptography",
+        "image_name": "achuthan.webp",
+        "name": "Achuthan B",
+        "nickname":"Pointbreak"
+    },
+    {
+        "role": "Web Exploitation & Reverse Engineering",
+        "image_name": "hemapriyaa.webp",
+        "name": "Hemapriyaa M",
+        "nickname":"Xeno "
+    },
+    {
+        "role": "Cryptography",
+        "image_name": "vimal.webp",
+        "name": "Vimal",
+        "nickname":"Kurai"
+    },
+    {
+        "role": "Cryptography",
+        "image_name": "greenrace.webp",
+        "name": "Nikil Krishna",
+        "nickname":"greenrace"
+    }
+]
