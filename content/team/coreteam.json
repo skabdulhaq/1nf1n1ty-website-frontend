@@ -40,6 +40,11 @@
         "image_name": "arun.webp",
         "name": "Arun Balaji B",
         "nickname":"4ruN"
+    },{
+        "role":"Reverse Engineering & Binary Exploitation ",
+        "image_name":"lakshmesh.webp",
+        "name":"Lakshmesh",
+        "nickname":"L4k5h"
     },
     {
         "role": "Reverse Engineering & Cryptography",

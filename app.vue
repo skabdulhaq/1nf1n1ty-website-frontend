@@ -70,3 +70,11 @@ html {
   }
 }
 </style>
+
+<script setup>
+useHead({
+  htmlAttrs: {
+    lang: 'en',
+  }
+})
+</script>

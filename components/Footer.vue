@@ -3,9 +3,9 @@
         <span class="logo-heading">1nf1n1ty</span>
         <span class="copyrights">&copy; 1nf1n1ty {{ currentYear }} </span>
         <ul class="quick-links">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><NuxtLink to="/join">Join Us</NuxtLink></li>
+            <li><NuxtLink to="/members">Members</NuxtLink></li>
+            <li><NuxtLink to="/#contact">Contact Us</NuxtLink></li>
         </ul>
     </footer>
 </template>

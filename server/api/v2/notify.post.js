@@ -41,7 +41,7 @@ export default defineEventHandler(async (event) => {
       return{
         // record,
         "data": "Successfully Added to notify list ",
-        "message": "developer dosent want to show you something.."
+        "message": "developer does not want to show you something.."
       }
     }
    catch(e){

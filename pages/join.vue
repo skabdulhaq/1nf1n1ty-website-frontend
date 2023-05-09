@@ -33,17 +33,17 @@
                         <button @click.prevent="validateForm" :class="{ disabled: form.sending }" id="button-newsletter"
                             type="submit" class="btn-notify">Notify Me</button>
 
+                            <transition name="status">
+                                <div v-if="form.errors.length" :class="form.success ? 'alert-success alert' : 'alert alert-error '"
+                                class="alert error-box" role="alert">
+                                <ul>
+                                    <li v-for="(error, index) in form.errors" v-bind:key="index">
+                                        {{ error }}
+                                    </li>
+                                </ul>
+                            </div>
+                        </transition>
                     </div>
-                    <transition name="status">
-                        <div v-if="form.errors.length" :class="form.success ? 'alert-success alert' : 'alert alert-error '"
-                            class="alert" role="alert">
-                            <ul>
-                                <li v-for="(error, index) in form.errors" v-bind:key="index">
-                                    {{ error }}
-                                </li>
-                            </ul>
-                        </div>
-                    </transition>
                 </form>
                 <p class="mt-2 allowed">
                     <span class="text-xl text-white">
@@ -66,11 +66,15 @@
     gap: 1rem;
 
 }
-
+.error-box{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 20px 10px;
+}
 .btn-notify {
     color: black;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 10px;
     box-sizing: border-box;
     cursor: pointer;
     font-size: 1.6rem;

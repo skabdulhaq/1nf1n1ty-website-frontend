@@ -3,13 +3,13 @@
         "role": "Binary Exploitation & Cryptography",
         "image_name": "roopak.webp",
         "name": "Roopak Suresh",
-        "nickname":"Hackkery"
+        "nickname": "Hackkery"
     },
     {
         "role": "Binary Exploitation & Reverse Engineering",
         "image_name": "hariharan.webp",
         "name": "Hariharan",
-        "nickname":"d.e"
+        "nickname": "hari"
     },
     {
         "role": "Cryptography & Forensics",
@@ -18,37 +18,54 @@
         "nickname": "Nitr0"
     },
     {
-        "role": "OSINT&Forensics",
+        "role": "Reverse Engineering & Web Exploitation",
+        "image_name": "vigneshwaran.webp",
+        "name": "Vigneshwaran",
+        "nickname":"d.e"
+    },
+    {
+        "role": "OSINT & Forensics",
         "image_name": "tasarmays.webp",
         "name": "Shyam Prasath S",
-        "nickname":"tasarmays"
+        "nickname": "tasarmays"
     },
     {
         "role": "Web Exploitation & Binary Exploitation",
         "image_name": "kadhir.webp",
         "name": "Kadhirravan R",
-        "nickname":"Apolo"
+        "nickname": "Apolo"
     },
     {
         "role": "Binary Exploitation & Reverse Engineering",
         "image_name": "tejas.webp",
         "name": "Tejas Kumar",
-        "nickname":"R3n"
+        "nickname": "R3n"
     },
     {
-    "role": "Forensics & Cryptography",
-    "image_name": "brijesh.webp",
-    "name": "Brijesh",
-        "nickname":"brij"
+        "role": "Cryptography & Forensics",
+        "image_name": "brijesh.webp",
+        "name": "Brijesh",
+        "nickname": "brij"
     },
     {
-        "role": "",
+        "role": "Networks & Forensics",
+        "image_name": "saai.webp",
+        "name": "Saai Sudarsanan",
+        "nickname": "Skittle"
+    },
+    {
+        "role": "Cryptography",
         "image_name": "kudiyarasu.webp",
         "name": "Kudiyarasu"
     },
     {
         "role": "Mentor",
-        "image_name": "sylaraj.webp",
+        "image_name": "SYLARAJ.webp",
         "name": "Sylaraj"
+    },
+    {
+        "role": "Mentor",
+        "image_name": "harini.webp",
+        "name": "Harini Mohan"
     }
 ]

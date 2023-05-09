@@ -1,6 +1,6 @@
 <template>
         <div class="card">
-            <NuxtImg sizes="sm:150px md:200px lg:300px" class="member-img" v-bind:src="getImage()" :alt="name" loading="lazy"/>
+            <NuxtImg  sizes="sm:150px md:200px lg:300px" class="member-img" v-bind:src="getImage()" :alt="name" loading="lazy"/>
             <span class="name">{{name}}</span>
             <span v-if=nickname class="nickname">{{nickname}}</span>
             <div v-if="role" class="role" v-for="_role in String(role).split('&')">

@@ -16,15 +16,15 @@
             </li>
         </ul>
         <div v-show="desktop" class="cta">
-            <a href="#contact">
+            <NuxtLink to="/#contact">
                 <button class="btn">
                     Contact
                 </button>
-            </a>
+            </NuxtLink>
         </div>
-        <NuxtImg @click="openNav" v-show="mobileMenuOpen && transparent && !desktop" class="toggle-icon unselectable"
+        <NuxtImg loading="lazy" @click="openNav" v-show="mobileMenuOpen && transparent && !desktop" class="toggle-icon unselectable"
             :class="{ 'toogle-icon-active': mobileMenuOpen }" id="open-menu" alt="menu" src="/images/menu.svg" />
-        <NuxtImg @click="closeNav" v-show="mobileMenuClose && transparent" class="toggle-icon unselectable"
+        <NuxtImg loading="lazy" @click="closeNav" v-show="mobileMenuClose && transparent" class="toggle-icon unselectable"
             :class="{ 'toogle-icon-active': mobileMenuClose }" id="close-menu" alt="close" src="/images/close.svg" />
         <Transition name="mobile-nav">
             <div v-show="!desktop && mobileMenuClose" class="dropdownnav">

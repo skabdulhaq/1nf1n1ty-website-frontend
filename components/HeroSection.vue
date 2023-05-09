@@ -6,8 +6,8 @@
     <div class="intro">
         <div class="img-group">
             <a href="https://ctftime.org/team/151859" target="_blank">
-                <NuxtImg class="pointer undraggable" alt="1nf1n1ty pointer" :src="pointer" />
-                <NuxtImg sizes="md:250px lg:500px" class="team-logo undraggable" alt="1nf1n1ty logo" :src="logo_" />
+                <NuxtImg loading="lazy" class="pointer undraggable" alt="1nf1n1ty pointer" :src="pointer" />
+                <NuxtImg loading="lazy" sizes="md:250px lg:500px" class="team-logo undraggable" alt="1nf1n1ty logo" :src="logo_" />
             </a>
         </div>
     </div>
