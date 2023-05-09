@@ -18,9 +18,9 @@
                     <a href="mailto:core@1nf1n1ty.team">
                         <button class="btn-pink">Write to us</button>
                     </a>
-                    <a href="#">
+                    <NuxtLink to="/join">
                         <button class="btn-pink">Join 1nf1n1ty</button>
-                    </a>
+                    </NuxtLink>
                 </span>
             </section>
         </div>
