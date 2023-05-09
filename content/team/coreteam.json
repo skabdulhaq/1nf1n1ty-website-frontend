@@ -78,9 +78,15 @@
         "nickname":"Kurai"
     },
     {
+        "role": "Forensics",
+        "image_name": "pritham.webp",
+        "name": "Pritham",
+        "nickname":"OwlH4x"
+    },
+    {
         "role": "Cryptography",
-        "image_name": "greenrace.webp",
-        "name": "Nikil Krishna",
-        "nickname":"greenrace"
+        "image_name": "sivasurya.webp",
+        "name": "Sivasurya",
+        "nickname":"Dopecat"
     }
 ]
