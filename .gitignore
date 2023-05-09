@@ -7,3 +7,5 @@ node_modules
 .env
 .git
 dist
+public
+content
