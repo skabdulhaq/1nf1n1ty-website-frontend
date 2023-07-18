@@ -6,14 +6,8 @@
         "nickname": "Hackkery"
     },
     {
-        "role": "Binary Exploitation & Reverse Engineering",
-        "image_name": "hariharan.webp",
-        "name": "Hariharan",
-        "nickname": "hari"
-    },
-    {
         "role": "Cryptography & Forensics",
-        "image_name": "tasarmays.webp",
+        "image_name": "nitro.webp",
         "name": "Shyam Sundar",
         "nickname": "Nitr0"
     },
@@ -36,32 +30,15 @@
         "nickname": "Apolo"
     },
     {
-        "role": "Binary Exploitation & Reverse Engineering",
-        "image_name": "tejas.webp",
-        "name": "Tejas Kumar",
-        "nickname": "R3n"
-    },
-    {
         "role": "Cryptography & Forensics",
         "image_name": "brijesh.webp",
         "name": "Brijesh",
         "nickname": "brij"
     },
     {
-        "role": "Networks & Forensics",
-        "image_name": "saai.webp",
-        "name": "Saai Sudarsanan",
-        "nickname": "Skittle"
-    },
-    {
         "role": "Cryptography",
         "image_name": "kudiyarasu.webp",
         "name": "Kudiyarasu"
-    },
-    {
-        "role": "Mentor",
-        "image_name": "sylaraj.webp",
-        "name": "Sylaraj"
     },
     {
         "role": "Mentor",
