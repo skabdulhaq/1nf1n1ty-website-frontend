@@ -6,7 +6,7 @@
                 <NuxtLink to="/#about" class="unselectable">About</NuxtLink>
             </li>
             <li>
-                <NuxtLink href="/blogs" class="unselectable">Blogs</NuxtLink>
+                <a href="https://blog.1nf1n1ty.team/writeups/" target="_blank" class="unselectable">Blogs</a>
             </li>
             <li>
                 <NuxtLink to="/members" class="unselectable">Members</NuxtLink>
