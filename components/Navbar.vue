@@ -9,11 +9,11 @@
                 <a href="https://blog.1nf1n1ty.team/writeups/" target="_blank" class="unselectable">Blogs</a>
             </li>
             <li>
-                <NuxtLink to="/members" class="unselectable">Members</NuxtLink>
+                <NuxtLink to="/members/" class="unselectable">Members</NuxtLink>
             </li>
-            <li>
-                <NuxtLink to="/join" class="unselectable">Join Us</NuxtLink>
-            </li>
+            <!-- <li>
+                <NuxtLink to="/join/" class="unselectable">Join Us</NuxtLink>
+            </li> -->
         </ul>
         <div v-show="desktop" class="cta">
             <NuxtLink to="/#contact">
@@ -22,23 +22,23 @@
                 </button>
             </NuxtLink>
         </div>
-        <NuxtImg loading="lazy" @click="openNav" v-show="mobileMenuOpen && transparent && !desktop" class="toggle-icon unselectable"
+        <img loading="lazy" @click="openNav" v-show="mobileMenuOpen && transparent && !desktop" class="toggle-icon unselectable"
             :class="{ 'toogle-icon-active': mobileMenuOpen }" id="open-menu" alt="menu" src="/images/menu.svg" />
-        <NuxtImg loading="lazy" @click="closeNav" v-show="mobileMenuClose && transparent" class="toggle-icon unselectable"
+        <img loading="lazy" @click="closeNav" v-show="mobileMenuClose && transparent" class="toggle-icon unselectable"
             :class="{ 'toogle-icon-active': mobileMenuClose }" id="close-menu" alt="close" src="/images/close.svg" />
         <Transition name="mobile-nav">
             <div v-show="!desktop && mobileMenuClose" class="dropdownnav">
                 <ul class="nav-links" id="mobile-links">
                     <li><a href="#about">About</a></li>
                     <li>
-                        <NuxtLink to="/blogs" class="unselectable">Blogs</NuxtLink>
+                        <NuxtLink to="https://blog.1nf1n1ty.team/writeups/" class="unselectable">Blogs</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/members">Members</NuxtLink>
+                        <NuxtLink to="/members/">Members</NuxtLink>
                     </li>
-                    <li>
-                        <NuxtLink to="/join" class="unselectable">Join Us</NuxtLink>
-                    </li>
+                    <!-- <li>
+                        <NuxtLink to="/join/" class="unselectable">Join Us</NuxtLink>
+                    </li> -->
                     <div class="cta" id="btn">
                         <a href="#contact">
                             <button class="btn">

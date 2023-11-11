@@ -1,6 +1,6 @@
 <template>
         <div class="card">
-            <NuxtImg  sizes="sm:150px md:200px lg:300px" class="member-img" v-bind:src="getImage()" :alt="name" loading="lazy"/>
+            <img class="member-img" v-bind:src="getImage()" :alt="name" loading="lazy"/>
             <span class="name">{{name}}</span>
             <span v-if=nickname class="nickname">{{nickname}}</span>
             <div v-if="role" class="role" v-for="_role in String(role).split('&')">
@@ -18,6 +18,7 @@
 }
 .member-img{
     border-radius: 50%;
+    width: 300px;
 }
 .name{
     margin: 0.75rem;
@@ -40,15 +41,22 @@
     gap: 0.5rem;
     font-size: 2rem;
 }
+@media (max-width: 500px) {
+    .member-img{
+    border-radius: 50%;
+    width: 200px;
+}
+}
+
 </style>
 <script>
 
     export default{
         name:"card",
-        props:["name", "image_file", "role", "nickname"],
+        props:["name", "image_link", "role", "nickname"],
         data(){
             const getImage = () =>{
-                return `/members/${this.image_file}`
+                return `${this.image_link}`
             }
             return{
                 getImage

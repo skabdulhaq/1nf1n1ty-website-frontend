@@ -24,13 +24,13 @@
                     <div class="smooth-nav">Faculty Advisors</div>
                     <div class="holder-faculty">
                         <div v-for="data in facultyData" key="data.name">
-                            <Card :name=data.name :role=data.role :image_file=data.image_name></Card>
+                            <Card :name=data.name :role=data.role :image_link=data.image_name></Card>
                         </div>
                     </div>
                     <div class="smooth-nav">Team Mentors</div>
                     <div class="holder">
                         <div v-for="data in mentorsData" key="data.name">
-                            <Card :name=data.name :nickname=data.nickname :role=data.role :image_file=data.image_name></Card>
+                            <Card :name=data.name :nickname=data.nickname :role=data.role :image_link=data.image_name></Card>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
             <Transition name="smooth-nav-core">
                 <div v-if="!showMentors" class="holder">
                     <div v-for="data in coreTeamData" key="data.name">
-                        <Card :name=data.name :role=data.role :image_file=data.image_name :nickname=data.nickname></Card>
+                        <Card :name=data.name :role=data.role :image_link=data.image_url :nickname=data.nickname></Card>
                     </div>
                 </div>
             </Transition>

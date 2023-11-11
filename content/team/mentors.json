@@ -8,14 +8,14 @@
     {
         "role": "Cryptography & Forensics",
         "image_name": "nitro.webp",
-        "name": "Shyam Sundar",
+        "name": "Shyam Sunder S",
         "nickname": "Nitr0"
     },
     {
         "role": "Reverse Engineering & Web Exploitation",
         "image_name": "vigneshwaran.webp",
         "name": "Vigneshwaran",
-        "nickname":"d.e"
+        "nickname":"dote"
     },
     {
         "role": "OSINT & Forensics",
@@ -27,18 +27,18 @@
         "role": "Web Exploitation & Binary Exploitation",
         "image_name": "kadhir.webp",
         "name": "Kadhirravan R",
-        "nickname": "Apolo"
+        "nickname": "Apollo"
     },
     {
         "role": "Cryptography & Forensics",
         "image_name": "brijesh.webp",
-        "name": "Brijesh",
+        "name": "Brijesharun G",
         "nickname": "brij"
     },
     {
         "role": "Cryptography",
         "image_name": "kudiyarasu.webp",
-        "name": "Kudiyarasu"
+        "name": "Kudiyarasu Renganathan G"
     },
     {
         "role": "Mentor",

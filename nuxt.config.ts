@@ -5,11 +5,8 @@ export default defineNuxtConfig({
     },
     target: 'static',
     buildModules: [
-        "@nuxt/image-edge"
-    ],
-    modules: [
-        "@nuxt/image-edge",
         '@nuxtjs/tailwindcss',
         '@nuxtjs/robots'
-    ]
+    ],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/robots']
 })

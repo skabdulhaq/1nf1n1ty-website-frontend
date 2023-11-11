@@ -5,7 +5,7 @@
                 <h1>Connect with us at</h1>
                 <div class="social-links">
                     <a target="_blank" v-for="social in socials" :href=social.link>
-                        <NuxtImg loading="lazy" sizes="sm:36px md:64px lg:100px" class="img-padding" :src=social.img :alt=social.alt />
+                        <img loading="lazy" sizes="sm:36px md:64px lg:100px" class="img-padding" :src=social.img :alt=social.alt />
                     </a>
                 </div>
                 <span class="underline intraction"><a href="https://discord.gg/74h9nnGFGM">Interact with the community</a></span>

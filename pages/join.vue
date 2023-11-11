@@ -1,4 +1,5 @@
-<template>
+<template></template>
+<!-- <template>
     <div class="main-join">
         <div class="container-all">
             <div class="logo-center">
@@ -215,4 +216,4 @@ export default {
         }
     }
 }
-</script>
+</script> -->
