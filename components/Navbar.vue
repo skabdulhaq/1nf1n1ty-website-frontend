@@ -3,13 +3,13 @@
         <NuxtLink to="/" class="logo-heading unselectable">1nf1n1ty</NuxtLink>
         <ul v-show="desktop" class="nav-links ">
             <li>
-                <NuxtLink to="/1nf1n1ty-website-frontend/#about" class="unselectable">About</NuxtLink>
+                <NuxtLink to="/#about" class="unselectable">About</NuxtLink>
             </li>
             <li>
                 <a href="https://blog.1nf1n1ty.team/writeups/" target="_blank" class="unselectable">Blogs</a>
             </li>
             <li>
-                <NuxtLink to="/1nf1n1ty-website-frontend/members/" class="unselectable">Members</NuxtLink>
+                <NuxtLink to="/members/" class="unselectable">Members</NuxtLink>
             </li>
             <!-- <li>
                 <NuxtLink to="/join/" class="unselectable">Join Us</NuxtLink>
@@ -29,12 +29,12 @@
         <Transition name="mobile-nav">
             <div v-show="!desktop && mobileMenuClose" class="dropdownnav">
                 <ul class="nav-links" id="mobile-links">
-                    <li><a href="/1nf1n1ty-website-frontend/#about">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li>
                         <NuxtLink to="https://blog.1nf1n1ty.team/writeups/" class="unselectable">Blogs</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/1nf1n1ty-website-frontend/members/">Members</NuxtLink>
+                        <NuxtLink to="/members/">Members</NuxtLink>
                     </li>
                     <!-- <li>
                         <NuxtLink to="/join/" class="unselectable">Join Us</NuxtLink>
