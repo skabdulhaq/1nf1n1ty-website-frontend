@@ -1,86 +1,68 @@
 [
     {
         "role": "Web Exploitation",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/zgopjn7iit3k.webp",
+        "image_url": "abhi.webp",
         "name": "Abhisek",
         "nickname":"hexkn1ght"
     },
     {
         "role": "Binary Exploitation & Reverse Engineering",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/2scspizfq1va.webp",
+        "image_url": "raghul.webp",
         "name": "Raghul P S",
         "nickname":"Antidote"
     },
     {
         "role": "Cryptography",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/lpoghgnrymbp.webp",
+        "image_url": "sowmya.webp",
         "name": "Sowmya",
         "nickname":"NEWT"
     },
     {
     "role": "Reverse Engineering",
-    "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/ut51pn89th2m.webp",
+    "image_url": "tharik.webp",
         "name": "Tharik Sherief",
         "nickname":"Strikerrrocker"
     },
     {
-        "role": "Web Exploitation & Hardware",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/xnqyfg4miyxe.webp",
+        "role": "Web Exploitation",
+        "image_url": "Abdul.webp",
         "name": "Abdul Haq",
         "nickname":"Mr.T!T@N"
     },
     {
         "role": "Forensics",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/0hw99ea7syz3.webp",
+        "image_url": "vishnu.webp",
         "name": "Vishnu vardan",
         "nickname":"Hecker"
     },
     {
         "role": "Web Exploitation & Cryptography",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/5xmwvd6qdrq1.webp",
+        "image_url": "arun.webp",
         "name": "Arun Balaji B",
         "nickname":"4ruN"
     },{
         "role":"Reverse Engineering & Binary Exploitation ",
-        "image_url":"https://black_hole-3kf-1-x0476859.deta.app/api/photo/bq4va30vsxws.webp",
+        "image_url":"lakshmesh.webp",
         "name":"Lakshmesh",
         "nickname":"L4k5h"
     },
     {
         "role": "Reverse Engineering & Cryptography",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/d4a2au8wy86m.webp",
+        "image_url": "p3rplex3d.webp",
         "name": "Shwetha S",
         "nickname":"p3rplex3d"
     },
     {
         "role": "Reverse Engineering",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/wxkwwrk7jvv2.webp",
+        "image_url": "arka.webp",
         "name": "Arka",
         "nickname":"ghost"
-    },
-    {
-        "role": "Cryptography",
-        "image_url": "https://black_hole-3kf-1-x0476859.deta.app/api/photo/w2luhwm5jw4z.webp",
-        "name": "Sahaana A",
-        "nickname":"g00be"
     },
     {
         "role": "Cryptography",
         "image_url": "achuthan.webp",
         "name": "Achuthan B",
         "nickname":"Pointbreak"
-    },
-    {
-        "role": "Web Exploitation & Reverse Engineering",
-        "image_url": "hemapriyaa.webp",
-        "name": "Hemapriyaa M",
-        "nickname":"Xeno "
-    },
-    {
-        "role": "Cryptography",
-        "image_url": "vimal.webp",
-        "name": "Vimal",
-        "nickname":"Kurai"
     },
     {
         "role": "Forensics",

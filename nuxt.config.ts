@@ -3,11 +3,11 @@ export default defineNuxtConfig({
     nitro: {
         compressPublicAssets: true,
     },
+    ssr:false,
     target: 'static',
     buildModules: [
         '@nuxtjs/tailwindcss',
         '@nuxtjs/robots'
     ],
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/robots'],
-    base:'/1nf1n1ty-website-frontend/'
 })
