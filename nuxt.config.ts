@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     nitro: {
         compressPublicAssets: true,
     },
-    ssr:false,
+    ssr:true,
     target: 'static',
     buildModules: [
         '@nuxtjs/tailwindcss',
