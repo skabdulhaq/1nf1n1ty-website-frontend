@@ -10,4 +10,5 @@ export default defineNuxtConfig({
         '@nuxtjs/robots'
     ],
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/robots'],
+    base:'/1nf1n1ty-website-frontend/',
 })
