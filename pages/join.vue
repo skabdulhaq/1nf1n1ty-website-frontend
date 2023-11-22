@@ -1,5 +1,4 @@
-<template></template>
-<!-- <template>
+<template>
     <div class="main-join">
         <div class="container-all">
             <div class="logo-center">
@@ -19,11 +18,14 @@
                 <div class="mt-4">
                     <div class="mt-4 flex items-center space-x-4">
                         <span class="text-2xl text-[#FF0054]">
-                            The team is currently not recruiting you can provide your details here and we will notify you about recruitment when they start. 
+                            <!-- The team is currently not recruiting you can provide your details here and we will notify you about recruitment when they start.  -->
                         </span>
                     </div>
                 </div>
-                <form class="mt-6 form-container">
+                <a href="mailto:ctf@1nf1n1ty.team?subject=Interested in Joining the CTF Team">
+                    <div class="btn-white">Send a mail</div>
+                </a>
+                <!-- <form class="mt-6 form-container">
                     <div class="flex w-full max-w-md flex-col space-y-4">
                         <input
                             class="flex h-10 w-full rounded-md border border-white/30 bg-transparent px-5 py-10 text-l placeholder:text-white focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 input-large"
@@ -45,10 +47,10 @@
                             </div>
                         </transition>
                     </div>
-                </form>
+                </form> -->
                 <p class="mt-2 allowed">
                     <span class="text-xl text-white">
-                        To join Team 1nf1n1ty you should be a student at SASTRA University.
+                        *To join Team 1nf1n1ty you should be a student at SASTRA University.
                     </span>
                 </p>
             </div>
@@ -216,4 +218,4 @@ export default {
         }
     }
 }
-</script> -->
+</script>

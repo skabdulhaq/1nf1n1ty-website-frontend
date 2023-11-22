@@ -35,7 +35,7 @@ footer {
 }
 @media (max-width: 800px) {
     .copyrights {
-    position:relative;
+    /* position:relative; */
     right: 49%;
 } 
 }
@@ -46,7 +46,7 @@ export default {
     name: "Footer",
     data() {
         return {
-            currentYear: 2023
+            currentYear: new Date().getFullYear()
         };
     },
 

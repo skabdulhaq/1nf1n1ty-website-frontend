@@ -11,9 +11,9 @@
             <li>
                 <NuxtLink to="/members/" class="unselectable">Members</NuxtLink>
             </li>
-            <!-- <li>
-                <NuxtLink to="/join/" class="unselectable">Join Us</NuxtLink>
-            </li> -->
+            <li>
+                <NuxtLink to="/join" class="unselectable">Join Us</NuxtLink>
+            </li>
         </ul>
         <div v-show="desktop" class="cta">
             <NuxtLink to="/#contact">
@@ -201,11 +201,33 @@ a:target {
     padding: .6rem 1.8rem;
     user-select: none;
     touch-action: manipulation;
+    border: 2px solid var(--white)!important;
     border: 0;
     transition: all 0.3s;
 
 }
+.btn-white{
+    width: fit-content;
+    background: var(--white);
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: var(--text-dark);
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    opacity: 1;
+    padding: 1.2rem 2.2rem;
+    border: 1px solid var(--white) !important;
+    user-select: none;
+    touch-action: manipulation;
+    border: 0;
+    transition: all 0.3s;
+}
 
+.btn-white:hover {
+    color: var(--white);
+    background-color: var(--text-dark);
+}
 .btn:hover {
     color: var(--white);
     background-color: var(--text-dark);
