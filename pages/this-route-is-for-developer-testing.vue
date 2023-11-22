@@ -2,7 +2,7 @@
     <div class="main-join">
         <div class="container-all">
             <div class="logo-center">
-                <NuxtImg loading="lazy" sizes="md:250px lg:500px" class="team-logo undraggable" alt="1nf1n1ty logo" :src="logo_" />
+                <img loading="lazy" sizes="md:250px lg:500px" class="team-logo undraggable" alt="1nf1n1ty logo" :src="logo_" />
             </div>
             <div class="data-container">
                 <h1 class="heading text-white">

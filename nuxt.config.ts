@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    experimental: {
+        payloadExtraction: true
+    },
     nitro: {
         compressPublicAssets: true,
     },
@@ -7,8 +10,8 @@ export default defineNuxtConfig({
     target: 'static',
     buildModules: [
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/robots'
+        '@nuxtjs/robots',
     ],
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/robots'],
-    base:'/1nf1n1ty-website-frontend/',
+    subFolders: true,
 })

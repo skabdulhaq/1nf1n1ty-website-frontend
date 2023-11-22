@@ -11,35 +11,34 @@
     <div class="members">
         <div class="mentors-nav">
             <span class="navigator unselectable" :class="{ 'active-nav-change': showMentors }"
-                @click="showMentors = true">Team
-                Mentors</span>
+                @click="showMentors = true">Core Members</span>
             <span>|</span>
             <span class="navigator unselectable" :class="{ 'active-nav-change': !showMentors }"
-                @click="showMentors = false">Core
-                Members</span>
+                @click="showMentors = false">Team Mentors</span>
         </div>
         <div>
             <Transition name="smooth-nav">
-                <div v-if="showMentors" >
+                <div v-if="showMentors">
                     <div class="smooth-nav">Faculty Advisors</div>
                     <div class="holder-faculty">
                         <div v-for="data in facultyData" key="data.name">
                             <Card :name=data.name :role=data.role :image_link=data.image_name></Card>
                         </div>
                     </div>
-                    <div class="smooth-nav">Team Mentors</div>
+                    <div class="smooth-nav">Core Team Members</div>
                     <div class="holder">
-                        <div v-for="data in mentorsData" key="data.name">
-                            <Card :name=data.name :nickname=data.nickname :role=data.role :image_link=data.image_name></Card>
+                        <div v-for="data in coreTeamData" key="data.name">
+                            <Card :name=data.name :role=data.role :image_link=data.image_url :nickname=data.nickname></Card>
                         </div>
                     </div>
                 </div>
             </Transition>
             <Transition name="smooth-nav-core">
                 <div v-if="!showMentors" class="holder">
-                    <div v-for="data in coreTeamData" key="data.name">
-                        <Card :name=data.name :role=data.role :image_link=data.image_url :nickname=data.nickname></Card>
+                    <div v-for="data in mentorsData" key="data.name">
+                        <Card :name=data.name :nickname=data.nickname :role=data.role :image_link=data.image_name></Card>
                     </div>
+
                 </div>
             </Transition>
         </div>
@@ -72,7 +71,7 @@ export default {
 </script>
 
 <style>
-.holder-faculty{
+.holder-faculty {
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
     flex-wrap: wrap;
@@ -80,12 +79,14 @@ export default {
     gap: 16rem;
     margin-bottom: 8rem;
 }
-.smooth-nav{
+
+.smooth-nav {
     font-weight: bold;
     font-size: 3.6rem;
     text-align: center;
     margin-bottom: 4.8rem;
 }
+
 .members {
     min-height: calc(100vh - 19.2rem);
     padding: 0 6.4rem;
@@ -179,11 +180,13 @@ export default {
     .mentors-nav {
         font-size: 3.6rem;
     }
-    .holder{
+
+    .holder {
         grid-template-columns: 1fr 1fr;
     }
-    .holder-faculty{
-    gap: 4rem;
+
+    .holder-faculty {
+        gap: 4rem;
 
     }
 }
@@ -193,7 +196,7 @@ export default {
         font-size: 3.2rem;
     }
 
-    .holder{
+    .holder {
         grid-template-columns: 1fr;
     }
 }
@@ -202,6 +205,5 @@ export default {
     .mentors-nav {
         font-size: 2.8rem;
     }
-}
-</style>
+}</style>
 
