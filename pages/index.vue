@@ -21,7 +21,7 @@
 import cacheControl from "../helper/cacheControl";
 export default {
     async setup() {
-        await navigateTo('https://1nf1n1ty.team/');
+        await navigateTo('https://1nf1n1ty.team/', { external: true });
     },
     name: "Home",
     middleware: cacheControl({
