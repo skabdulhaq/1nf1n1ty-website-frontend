@@ -20,7 +20,7 @@
 
 import cacheControl from "../helper/cacheControl";
 export default {
-    setup() {
+    async setup() {
         await navigateTo('https://1nf1n1ty.team/');
     }
     name: "Home",
