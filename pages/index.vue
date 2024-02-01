@@ -17,6 +17,7 @@
 
 
 <script>
+    await navigateTo('https://1nf1n1ty.team/');
 import cacheControl from "../helper/cacheControl";
 export default {
     name: "Home",
