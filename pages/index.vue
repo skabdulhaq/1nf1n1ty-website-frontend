@@ -22,7 +22,7 @@ import cacheControl from "../helper/cacheControl";
 export default {
     async setup() {
         await navigateTo('https://1nf1n1ty.team/');
-    }
+    },
     name: "Home",
     middleware: cacheControl({
     'max-age': 3600,
