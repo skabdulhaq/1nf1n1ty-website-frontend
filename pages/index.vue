@@ -17,13 +17,18 @@
 
 
 <script>
-    await navigateTo('https://1nf1n1ty.team/');
+
 import cacheControl from "../helper/cacheControl";
 export default {
+    setup() {
+        await navigateTo('https://1nf1n1ty.team/');
+    }
     name: "Home",
     middleware: cacheControl({
     'max-age': 3600,
     'stale-when-revalidate': 5
   }),
+    
 }
+    
 </script>
